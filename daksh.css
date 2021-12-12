@@ -2,7 +2,7 @@
     background-color: #000000;
     color: white;
     height: 100vh;
-    font-family: 'manrope', sans-serif;
+    font-family: 'Bell MT', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,11 +10,12 @@
 }
 
 .profile{
-    width: 250px;
-    height: 1250px;
+    width: 225px;
+    height: 225px;
+    padding: 25px;
     border-radius: 50%;
     align-items: center;
-    box-shadow: white 4px 4px 4px 4px;    
+    box-shadow: rgb(230, 177, 3) 4px 4px 4px 4px;    
 }
 
 .site-header-content{
@@ -24,29 +25,82 @@
 
 .h1-text{
     color: yellow;
+    font-family: 'BankGothic Md BT', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
 
-.site-redirect{
-    color: yellow;
+.h1-text-skills{
+    color: rgb(0, 0, 0);
+    font-family: 'BankGothic Md BT', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.h1-text-languages{
+    color: rgb(0, 0, 0);
+    font-family: 'BankGothic Md BT', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .fa{
     padding: 20px;
     text-align: center;
     margin: 5px 2px;
-    font-size: 50px;
+    font-size: 40px;
     width: 40px;
-}
-
-.fa-linkedin{
     color: white;
-    border-radius: 50%;
     text-decoration: none;
 }
 
-.fa-instagram{
-    color: white;
-    border-radius: 50%;
-    text-decoration: none;
+.site-header1{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 105vh;
+    font-family: 'times new roman', sans-serif;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
 }
 
+.li{    
+    font-size: 20px;
+    
+    list-style-type: disc;
+}
+
+.imag{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.imgleft{
+    float: left;
+    width: 280px;
+    height: 155px;    
+}
+
+.imgright{
+    float: right;
+    width: 200px;
+    height: 100px;    
+}
+
+.imgcentre{
+    align-items: center;
+    padding-left: 70px;
+    width: 150px;
+    height: 150px;
+}
+
+.site-header2{
+    background-color: #000000;
+    color: rgb(255, 208, 0);
+    height: 100vh;
+    font-family: 'times new roman', sans-serif;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
