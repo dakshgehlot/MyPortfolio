@@ -1,0 +1,52 @@
+.site-header{
+    background-color: #000000;
+    color: white;
+    height: 100vh;
+    font-family: 'manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 250px;
+    height: 1250px;
+    border-radius: 50%;
+    align-items: center;
+    box-shadow: white 4px 4px 4px 4px;    
+}
+
+.site-header-content{
+    margin: 10px;
+    text-align: center;
+}
+
+.h1-text{
+    color: yellow;
+}
+
+.site-redirect{
+    color: yellow;
+}
+
+.fa{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 50px;
+    width: 40px;
+}
+
+.fa-linkedin{
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-instagram{
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
