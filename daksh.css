@@ -1,5 +1,5 @@
 .site-header{
-    background-color: #000000;
+    background-color: #1d1a1a;
     color: white;
     height: 100vh;
     font-family: 'Bell MT', sans-serif;
@@ -15,7 +15,7 @@
     padding: 25px;
     border-radius: 50%;
     align-items: center;
-    box-shadow: rgb(230, 177, 3) 4px 4px 4px 4px;    
+    box-shadow: rgb(230, 177, 3) 2px 2px 2px 2px;    
 }
 
 .site-header-content{
@@ -90,7 +90,7 @@
 
 .imgcentre{
     align-items: center;
-    padding-left: 70px;
+    padding-left: 80px;
     width: 150px;
     height: 150px;
 }
